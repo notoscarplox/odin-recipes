@@ -22,29 +22,27 @@
 }
 
 .recipes-container {
+	align-items: center;
+	border: 5px solid #ffcc5c;
 	display: flex;
-	border: 2px solid rgb(0, 255, 64);
-	margin: 0;
-	padding: 20px;
-	background-color: rgb(235, 168, 201);
-	justify-content: center;
-	align-items: space-between;
-}
-
-.ranch img {
-	width: 200px;
-}
-
-.ranch {
-	display: grid;
-	margin: 0;
-	padding: 10px;
-	border: 1 solid green;
-}
-.recipes-items {
-	display: flex;
-	border: 1px solid rgb(0, 47, 255);
-	text-align: center;
-	align-items: between;
+	background-color: rgb(143, 182, 127);
 	width: auto;
+	justify-content: center;
+	padding: 10px 500px;
+}
+
+.recipes-container > div {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	font-size: 2em;
+	color: #ffeead;
+	background-color: rgb(199, 137, 199);
+	margin: 5px;
+}
+
+.recipes-container img {
+	flex: 1;
+	max-width: 100%;
+	height: auto;
 }
