@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title-container {
+	color: #fff;
+	background-color: #5995DA;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tit {
+	border: 1px solid #fff;
+	width: 900px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.recipes-container {
+	display: flex;
+	background-color: pink;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.recipes-list {
+	display: flex;
+	margin: 0px;
+	width: 900px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: pink;
+	padding: 0px;
+
+}
+
+.list {
+	display: flex;
+	margin: 0px;
+	width: 900px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ranch {
+	width: 200px;
+}
+
+.ranch-recipe {
+	display: flex;
+}
